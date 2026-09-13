@@ -1,0 +1,12 @@
+Rank,Model,Hidden Layers,Units,Activation,Loss,Dropout,Best Epoch,Validation Accuracy,Test Accuracy
+1,"2 layers, 64 units",2,64,relu,binary_crossentropy,,3,0.8902999758720398,0.8866000175476074
+2,"2 layers, 32 units",2,32,relu,binary_crossentropy,,3,0.8901000022888184,0.8830400109291077
+3,2x64 ReLU with Dropout 0.3,2,64,relu,binary_crossentropy,0.3,4,0.8896999955177307,0.8851199746131897
+4,2x32 ReLU with Dropout 0.5,2,32,relu,binary_crossentropy,0.5,6,0.8889999985694885,0.8786399960517883
+5,"3 hidden layers, 16 units",3,16,relu,binary_crossentropy,,4,0.888700008392334,0.8843600153923035
+6,"1 hidden layer, 16 units",1,16,relu,binary_crossentropy,,5,0.8877000212669373,0.8876799941062927
+7,"Baseline: 2 layers, 16 units, ReLU, BCE",2,16,relu,binary_crossentropy,,4,0.8877000212669373,0.8836399912834167
+8,"2 layers, 8 units",2,8,relu,binary_crossentropy,,5,0.8877000212669373,0.8889600038528442
+9,2x16 ReLU with MSE,2,16,relu,mse,,4,0.887499988079071,0.8832799792289734
+10,2x64 ReLU with Dropout 0.2,2,64,relu,binary_crossentropy,0.2,4,0.887499988079071,0.880840003490448
+11,2x16 Tanh with BCE,2,16,tanh,binary_crossentropy,,4,0.8873000144958496,0.8773599863052368
