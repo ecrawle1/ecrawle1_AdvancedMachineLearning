@@ -1,0 +1,7 @@
+Model,Training Images,Best Epoch,Validation Accuracy,Validation Loss,Test Accuracy,Test Loss
+CNN from scratch,1000,28,0.646,0.6236,0.686,0.6196
+CNN from scratch,2000,30,0.698,0.5509,0.702,0.5467
+CNN from scratch,9996,30,0.842,0.3373,0.83,0.371362
+Pretrained VGG16,1000,10,0.968,0.2395,0.968,0.2339
+Pretrained VGG16,2000,7,0.98,0.1522,0.98,0.2343
+Pretrained VGG16,9996,12,0.986,0.0953,0.986,0.1072
